@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+        <title>Webmission P2PWeb</title>
+        <link rel="shortcut icon" href="/images/favicon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel'stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+
+        <script>
+        window.onload = function() {
+            initMain();
+            console.log("iniciado Webmission");
+        };
+        </script>
+
+    </head>
+    <body>
+    <div id="main_container">
+        <h1 id="titulo_pagina">Webmission</h1>
+
+
+        <div id="cont_izquierda">
+            <div id="cont_texto_info" class="caja_texto_izquierda">
+
+            <img id="img_espera"src="/images/loader.GIF" >
+
+            </div>
+        </div>
+
+        
+
+        <div id="cont_actividad">
+          
+        </div>
+
+		<div id="cont_input">
+		</div>
+
+        <div id="cont_espera">
+            <img id="img_espera"src="/images/loader.GIF" >
+        </div>
+
+
+		
+		<div id="prueba"></div>
+
+		<div class="clear"></div>
+
+
+
+        
+</div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/lib/adapter.js"></script>  
+        <script src="js/gestiona_conexion.js"></script>
+        <script src="js/filesystem.js"></script>
+        <script src="js/auxiliares.js"></script>
+        <script src="js/gestiona_vista.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/carga_envia.js"></script>
+
+
+    </body>
+</html>
